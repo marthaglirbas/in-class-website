@@ -1,0 +1,28 @@
+body {
+    background-color: #d9ada6;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #68514d;
+}
+
+a {
+    color:#68514d;
+    background-color: #efd9d5;
+}
+
+h1 {
+    font-size: 76px;
+    color:#40322f;
+    font-weight: normal;
+}
+
+.city-wrapper {
+    padding: 20px;
+    padding-left: 150px;
+    margin-bottom: 50px;
+    background-color: #efd9d5;
+
+}
+
+.city-wrapper.london > p {
+    font-size: 20px; 
+}
