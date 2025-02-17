@@ -7,7 +7,7 @@ body {
     color: #68514d;
 }
 .container {
-    max-width: 730px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -18,7 +18,6 @@ body {
 
 a {
     color:#68514d;
-    background-color: #efd9d5;
 }
 
 p{
@@ -41,24 +40,31 @@ h2 {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    margin: 0;
 }
 
 h3 {
-    font-size: 40;
+    font-size: 35px;
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 512;
     font-style: normal;
 }
 
 .city-wrapper {
     padding: 20px;
-    padding-left: 150px;
     margin-bottom: 50px;
-    background-color: #efd9d5;
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
 }
 
-.city-wrapper.london > p {
-    font-size: 20px; 
+
+.city-text {
+    width: 50%;
+}
+
+.city-image {
+    width: 50%;
 }
